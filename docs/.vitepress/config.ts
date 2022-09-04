@@ -15,29 +15,27 @@ export default {
 		],
 		sidebar: [
 			{
+				items: [{ text: '快速开始', link: '/' }],
+			},
+			{
+				text: '主题配置',
+				link: '/config/',
 				items: [
-					{ text: '快速开始', link: '/' },
+					{ text: '图标', link: '/config/icon' },
+					{ text: '自定义配色', link: '/config/colors' },
+				],
+			},
+			{
+				text: '特色功能',
+				items: [
+					{ text: '音频播放', link: '/feature/music' },
 					{
-						text: '主题配置',
-						link: '/config/',
-						items: [
-							{ text: '图标', link: '/config/icon' },
-							{ text: '自定义配色', link: '/config/colors' },
-						],
+						text: '哔哩哔哩播放器',
+						link: '/feature/bilibili',
 					},
 					{
-						text: '特色功能',
-						items: [
-							{ text: '音频播放', link: '/feature/music' },
-							{
-								text: '哔哩哔哩播放器',
-								link: '/feature/bilibili',
-							},
-							{
-								text: 'CodePen',
-								link: '/feature/codepen',
-							},
-						],
+						text: 'CodePen',
+						link: '/feature/codepen',
 					},
 				],
 			},
