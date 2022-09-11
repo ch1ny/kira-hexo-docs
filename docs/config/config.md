@@ -1,5 +1,7 @@
 # 配置详解
 
+为了让 Kira-Hexo 正常工作，你还需要在 Hexo 项目的根目录下新建一个名为 `_config.kira.yml` 的文件，并在文件中填入下方的配置信息。
+
 ## 配置源代码
 
 大部分配置项均已写好对应的注释，开发者可以自行尝试。
@@ -17,20 +19,12 @@ favicon:
 # 附加图标库 使用说明：https://hexo.kira.host/config/icon
 iconlib: //at.alicdn.com/t/c/font_3299330_2a7ov96q7e3.css
 
-search:
-    type: local # 可选engine（用搜索引擎搜索）、swiftype、或local（本地搜索）
-    url: https://cn.bing.com/search?q=site:kira.host # 搜索引擎地址，在type为swiftype时无效 e.g:https://www.google.com/search?q={你的博客链接}
-    id: <swiftype-id> # swiftype的id，见启用教程。在type为engine时无效
-
 cdn: # 这里可以修改站点使用的库的CDN
-    # disqusjs:
-    #     css: https://unpkg.com/disqusjs@1.2.5/dist/disqusjs.min.css
-    #     js: https://unpkg.com/disqusjs@1.2.5/dist/disqus.min.js
     gitalk:
         css: https://unpkg.com/gitalk@latest/dist/gitalk.css
         js: https://unpkg.com/gitalk@latest/dist/gitalk.min.js
-    # valine:
-    #     js: https://unpkg.com/valine
+
+beian: 赣ICP备******号 # 备案号（选填，此乃中国特色，不得不尝）
 
 menu:
     回到首页:
@@ -50,9 +44,6 @@ widgets:
     - social
     - category
     - tagcloud
-# - archive #settings: widgetAchive
-# - recent_posts
-# - link #settings: widgetLink
 
 maxTagcloud: 0 # 标签云组件显示的标签数量，0 表示不限制
 
@@ -108,9 +99,9 @@ color: # 配色方案，从first到seventh为优先级为1-7的颜色，默认�
         g: 144
         b: 255
 
-# 评论框，目前支持 gitalk,gitment,valine,disqus,disqusjs,changyan,livere,DiscussBot 使用 false 可以关闭
-comment: gitalk
+# 评论区
 gitalk:
+    active: true # 是否启用 gitalk
     admin: -your github username- # 拥有对该repo进行操作的 GitHub username
     owner: -your github username- # 持有该 repo 的 GitHub username
     repo: -issue repo name- # 存放评论的 issue 所在的 repo

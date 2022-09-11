@@ -15,14 +15,24 @@ export default {
 		],
 		sidebar: [
 			{
-				items: [{ text: '快速开始', link: '/' }],
+				items: [
+					{ text: '快速开始', link: '/' },
+					{ text: '版本迭代', link: '/version' },
+				],
 			},
 			{
 				text: '主题配置',
-				link: '/config/',
 				items: [
+					{ text: '配置文件', link: '/config/config' },
 					{ text: '图标', link: '/config/icon' },
 					{ text: '自定义配色', link: '/config/colors' },
+				],
+			},
+			{
+				text: '页面配置',
+				items: [
+					{ text: 'Front Matter', link: '/article/front-matter' },
+					{ text: '文章归档', link: '/article/archive' },
 				],
 			},
 			{

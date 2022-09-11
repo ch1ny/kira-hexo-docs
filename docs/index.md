@@ -7,7 +7,7 @@
 [Kira-Hexo](https://github.com/ch1ny/kira-hexo) 是一款高度定制化的 Hexo 专属主题
 ![预览](/assets/img/preview.png)
 
-> 欢迎访问 [我的主页](https://kira.host/)，这也是使用该主题搭建的示例站点。
+> 欢迎访问 [我的主页](https://aiolia.top/)，这也是使用该主题搭建的示例站点。
 
 :::tip
 在使用 kira-hexo 之前，请确认已经仔细阅读过 [Hexo 官方文档](https://hexo.io/zh-cn/docs/)，完成了对 hexo 的安装以及对 `_config.yml` 的基本配置。
@@ -34,3 +34,5 @@ yarn add hexo-theme-kira
 ## 配置 Kira-Hexo
 
 安装好主题后，在 Hexo 根目录下修改 `_config.kira.yml`
+
+配置文件内容请参考 [配置文件](/config/config.html)
