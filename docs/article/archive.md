@@ -22,6 +22,6 @@ layout: archives
 
 ## 效果演示
 
-[文章归档 - 德布罗煜](https://aiolia.top/archive.html)
+[文章归档 - 德布罗煜](https://kira.host/archive.html)
 
 ![文章归档页效果演示](/assets/img/archive.png)
