@@ -25,6 +25,7 @@ export default {
 				items: [
 					{ text: '配置文件', link: '/config/config' },
 					{ text: '图标', link: '/config/icon' },
+					{ text: '自定义样式', link: '/config/customStyles' },
 					{ text: '自定义配色', link: '/config/colors' },
 				],
 			},

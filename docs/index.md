@@ -5,7 +5,7 @@
 > A kirameki ✨ hexo theme for your blog.
 
 [Kira-Hexo](https://github.com/ch1ny/kira-hexo) 是一款高度定制化的 Hexo 专属主题
-![预览](/assets/img/preview.png)
+![预览](/assets/img/preview.webp)
 
 > 欢迎访问 [我的主页](https://kira.host/)，这也是使用该主题搭建的示例站点。
 

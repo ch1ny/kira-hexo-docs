@@ -127,4 +127,9 @@ widgetLink: #链接组件
 
 # 自定义侧边栏尾部内容
 sidebar: ''
+
+# 自定义样式
+customStyles:
+    - style
+    - custom
 ```

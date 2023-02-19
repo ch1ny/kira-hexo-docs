@@ -9,6 +9,7 @@ Kira-Hexo 自带了 `hexo-tag-aplayer` 依赖，用户可以使用它在文章�
 ```yaml
 aplayer:
     meting: true
+    asset_inject: false
 ```
 这样一来就可以通过 `{% meting ...%}` 在文章中使用 MetingJS 播放器了：
 ```markdown

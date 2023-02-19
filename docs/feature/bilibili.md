@@ -7,7 +7,7 @@ Kira-Hexo 为用户提供了 `{% biliplayer %}` 标签用以在文章当中快�
 ```markdown
 {% biliplayer 33053034 11 1 %}
 ```
-![预览](/assets/img/biliplayer.png)
+![预览](/assets/img/biliplayer.webp)
 
 ### 标签参数
 | 选项 | 默认值 | 描述 |

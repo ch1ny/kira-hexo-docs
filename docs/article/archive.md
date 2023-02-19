@@ -24,4 +24,4 @@ layout: archives
 
 [文章归档 - 德布罗煜](https://kira.host/archive.html)
 
-![文章归档页效果演示](/assets/img/archive.png)
+![文章归档页效果演示](/assets/img/archive.webp)
