@@ -2,7 +2,27 @@
 
 ## Kira Hexo
 
+:::tip CREDITS
+特别鸣谢 [`nexmoe`](https://github.com/theme-nexmoe/hexo-theme-nexmoe)，这是我最初使用的 hexo 主题，kira-hexo 的设计风格也是借鉴于此，在其风格之上做了部分定制化，希望各位能够支持支持原作者。
+:::
+
 > A kirameki ✨ hexo theme for your blog.
+
+
+<div style="width: 100%; display: flex;">
+  <a href="https://www.npmjs.com/package/hexo-theme-kira">
+    <img src="https://badgen.net/npm/v/hexo-theme-kira" alt="npm version" />
+  </a>
+  &nbsp;
+  <a href="https://www.npmjs.com/package/hexo-theme-kira">
+    <img src="https://badgen.net/npm/dw/hexo-theme-kira" alt="npm weekly download" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/ch1ny/kira-hexo/stargazers">
+    <img src="https://badgen.net/github/stars/ch1ny/kira-hexo" alt="github stars" />
+  </a>
+</div>
+
 
 [Kira-Hexo](https://github.com/ch1ny/kira-hexo) 是一款高度定制化的 Hexo 专属主题
 ![预览](/assets/img/preview.webp)
@@ -30,6 +50,10 @@ yarn add hexo-theme-kira
 ## 启用 Kira-Hexo
 
 在 `_config.yml` 中，将 `theme` 的值修改为 `kira`
+
+:::tip **代码高亮**
+`Kira-Hexo` 的代码高亮依赖于 `hljs`，因此使用 kira-hexo 的同时需要将 `_config.yml` 中的 `highlight.hljs` 设置为 `true`。
+:::
 
 ## 配置 Kira-Hexo
 

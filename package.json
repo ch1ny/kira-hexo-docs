@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"dev": "vitepress dev docs",
-		"build": "vitepress build docs",
+		"dist": "vitepress build docs",
 		"serve": "vitepress serve docs"
 	}
 }
