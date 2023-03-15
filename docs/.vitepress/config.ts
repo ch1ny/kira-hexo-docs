@@ -18,6 +18,7 @@ export default {
 				items: [
 					{ text: '快速开始', link: '/' },
 					{ text: '版本迭代', link: '/version' },
+					{ text: '常见问题', link: '/faqs' },
 				],
 			},
 			{
